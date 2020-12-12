@@ -1,13 +1,21 @@
 ﻿body { 
     font-size:18px;
-    color:blue;
+    color: black;
+    background-color:white;
     font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
 h1, h2, h3, h4, h5, h6 { 
     font-family:"Comic Sans MS", cursive;
-    color:green !important;
-}  
+    color:rgb(128, 0, 0) !important;
+    background: linear-gradient(white, black);
+}
+
+h2 {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-width: 2px;
+}
 
 h2[style*="italic"] {
     font-style:normal !important;
@@ -15,10 +23,12 @@ h2[style*="italic"] {
 
 
 header {
+    color: orange;
     font-size:48px;
     text-align:center;
     border:1px solid;
-    background-color:lightblue;
+    background-color:rgb(30, 43, 221);
+    text-shadow:salmon;
     padding:40px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
@@ -28,6 +38,8 @@ nav a:hover {
 }
 
 nav a {
+    color:slategrey;
+    background-color: tomato;
     text-decoration:none;
     border:1px solid;
     border-radius:5px 5px 0 0;
@@ -44,5 +56,9 @@ nav {
     border-bottom:1px solid;
     margin-top:10px;
     padding-bottom:5px;
+}
+
+aside {
+    background: linear-gradient(white 50px, rgb(255, 93, 0));
 }
 

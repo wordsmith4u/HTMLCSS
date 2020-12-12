@@ -7,10 +7,11 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Comic Sans MS", cursive;
 }
 h2 [style*="italic"] {
-    font-style: normal; !important
+    font-style: normal !important;
 }
+
 h2 {
-    text-shadow: 2px 2px green;
+    text-shadow: 2px 2px green;  
 }
 header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
